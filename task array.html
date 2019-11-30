@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task array</title>
+</head>
+<body>
+	<input type="text" name="" id="laxmi">
+	<button onclick="raju()">button</button>
+	<button onclick="srinu()">buttion1</button>
+	<button onclick="pavan()">button2</button>
+	<script>
+		function raju(){
+        var x=[1,2,3,4,5,6,7,8,9];
+        var y=document.getElementById("laxmi")
+		x.push(y.value);
+		//document.getElementById("laxmi").innerHTML=x;
+		console.log(x);
+		}
+       function srinu(){
+        var x=[1,2,3,4,5,6,7,8,9];
+        var y=document.getElementById("laxmi")
+		x.pop(y.value);
+		//document.getElementById("laxmi").innerHTML=x;
+		console.log(x);
+		}
+		function pavan(){
+        var x=[1,2,3,4,5,6,7,8,9];
+        var y=document.getElementById("laxmi")
+		x.unshift(y.value);
+		//document.getElementById("laxmi").innerHTML=x;
+		console.log(x);
+		}
+		
+	</script>
+
+</body>
+</html>

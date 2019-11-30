@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+.ss{ background-image: url(SAVE_20190414_092448.jpg); background-size: cover; height:200px;
+width:200px; border:1px solid;}
+.ss1{ background-image: url(SAVE_20190414_092225.jpg); background-size:cover; height:300px;
+width:400px; border:1px solid;}
+</style>
+</head>
+<body>
+<h1 id="demo" onmouseover="sankarrao()" onmouseout="rajubay()">Mouse over me</h1>
+<img class="ss" onMouseOver="imgBig()">
+<button onclick="imgbig()"></button>
+<script>
+function sankarrao(){
+  document.getElementById("demo").style.color = "green";
+}
+sankarRao();
+function rajubay() {
+  document.getElementById("demo").style.color = "blue";
+}
+rajuBay();
+function imgbig() {
+	      var x=document.getElementsByClassName("ss");
+           for(i=0;i<x.length;i++){
+			x[i].setAttribute("class","ss1");
+		      }
+	}
+</script>
+
+</body>
+</html>

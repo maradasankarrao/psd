@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is tabs</title>
+	<style type="text/css">
+		#para{display: inline-block;width: 560px;margin-left: 11px;}
+		#ss{ height: 300px;width: 475px;}
+		#sa{ height: 300px;width: 575px;}
+		#div1{ display: block; height: 300px;width:100%;background-color:red;}
+		#div2{ height: 300px;width:100%;}
+	</style>
+</head>
+<body>
+<button onclick="myfunction()">front</button> 
+<div id="div1">
+<p id="para">12MP primary camera with 720p HD video recording, retina flash, ƒ/2.2 aperture, auto HDR for photos, backside illumination sensor, exposure control, improved local tone mapping, face detection, timer mode, burst mode and 1.2MP front facing camera
+10.16 centimeters (4-inch) LED-backlit multi-touch capacitive touchscreen with 1136 x 640 pixels resolution and 326 ppi pixel density
+IOS v10 operating system with 1.84GHz A9 Chip 64-bit Architecture Embedded M9 Motion dual core processor, M9 motion GPU, 2GB RAM, 32GB internal memory and single SIM
+1624mAH lithium-ion battery providing talk-time of 14 hours and standby time of 13 hours
+1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase
+Audio calling - It supports voice over LTE(VOLTE)
+› See more product details</p>
+<img id="ss" src="F:\backgrounds\ef16c89782fac585f378fe2657456028.jpg" height="30px"; width="300px";>
+</div>
+<div id="div2">
+	<img id="ss" src="F:\backgrounds\ef16c89782fac585f378fe2657456028.jpg" height="30px"; width="300px";>
+<p id="para">12MP primary camera with 720p HD video recording, retina flash, ƒ/2.2 aperture, auto HDR for photos, backside illumination sensor, exposure control, improved local tone mapping, face detection, timer mode, burst mode and 1.2MP front facing camera
+10.16 centimeters (4-inch) LED-backlit multi-touch capacitive touchscreen with 1136 x 640 pixels resolution and 326 ppi pixel density
+IOS v10 operating system with 1.84GHz A9 Chip 64-bit Architecture Embedded M9 Motion dual core processor, M9 motion GPU, 2GB RAM, 32GB internal memory and single SIM
+1624mAH lithium-ion battery providing talk-time of 14 hours and standby time of 13 hours
+1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase
+Audio calling - It supports voice over LTE(VOLTE)
+› See more product details</p>
+</div>
+
+
+
+<script>
+	function myfunction(){
+		var a=1;
+		var x=document.getElementById('div1');
+		var y=document.getElementById('div2');
+		for (i=0;i<x;i++){
+			if(a==1){
+			document.write(x);
+			}
+			else{
+				document.write(y);
+				}
+		}
+	}
+		myfunction();
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<input type="text"name="name" id="shankar" placeholder="enter the  number" >
+<input type="text"name="name" id="shankar1" placeholder="enter the another number" >
+<input type="text" name="" id="ss1" placeholder="total value">
+<button onclick="nyfun()">click</button>
+<script>
+	function nyfun() {
+		var x=document.getElementById("shankar");
+		var y=document.getElementById("shankar1");
+		var z=(parseInt(x.value)+parseInt(y.value));
+		document.getElementById("ss1").value = z;
+
+		
+	}
+	</script>
+</body>
+
+</html>
